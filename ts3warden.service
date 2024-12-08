@@ -1,0 +1,17 @@
+[Unit]
+Description=My TeamSpeak Bot
+After=network.target
+After=teamspeak3.service
+Requires=teamspeak3.service
+
+[Service]
+Type=simple
+User=ts3warden
+WorkingDirectory=/home/ts3warden
+ExecStart=/home/ts3warden/ts3-warden
+RestartSec=15
+Restart=on-failure
+Nice=3
+
+[Install]
+WantedBy=multi-user.target

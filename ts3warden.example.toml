@@ -1,0 +1,13 @@
+[general]
+host = "localhost"
+serverport = 9987
+queryport = 10011
+nickname = "lmao"
+username = "serveradmin"
+password = ""
+
+[moderation]
+idletime = 20
+
+[metrics]
+db_path = "/path/to/db.sqlite"
