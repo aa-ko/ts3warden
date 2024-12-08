@@ -1,4 +1,4 @@
-# tstatbot
+# ts3warden
 
 Teamspeak3 bot that moves people that have been idle for too long.
 
